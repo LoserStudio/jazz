@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+   <head> 
+      <meta charset = "utf-8">
+      <title>phw</title>
+	  <style type = "text/css">
+      </style>
+	  
+      </style>
+
+      <script type="text/javascript">
+	  var jj1;var jj2;var jj3;var jj4;var jj5;var jj6;var jj7;var jj8;
+	  
+         function start()
+         {
+            var button1 = document.getElementById( "1" );
+            button1.addEventListener( "click", play1, false );
+            var button2 = document.getElementById( "2" );
+            button2.addEventListener( "click", play2, false );
+            var button3 = document.getElementById( "3" );
+            button3.addEventListener( "click", play3, false );
+            var button4 = document.getElementById( "4" );
+            button4.addEventListener( "click", play4, false );
+            var button5 = document.getElementById( "5" );
+            button5.addEventListener( "click", play5, false );
+            var button6 = document.getElementById( "6" );
+            button6.addEventListener( "click", play6, false );
+            var button7 = document.getElementById( "7" );
+            button7.addEventListener( "click", play7, false );
+            var button8 = document.getElementById( "8" );
+            button8.addEventListener( "click", play8, false );
+         }
+		 function play1(){
+		 audioObject = document.getElementById( "jj1" );
+		 audioObject.play();
+         }	
+		 function play2(){
+		 audioObject = document.getElementById( "jj2" );
+		 audioObject.play();
+         }	
+		 function play3(){
+		 audioObject = document.getElementById( "jj3" );
+		 audioObject.play();
+         }		
+		 function play4(){
+		 audioObject = document.getElementById( "jj4" );
+		 audioObject.play();
+         }		
+		 function play5(){
+		 audioObject = document.getElementById( "jj5" );
+		 audioObject.play();
+         }		
+		 function play6(){
+		 audioObject = document.getElementById( "jj6" );
+		 audioObject.play();
+         }		
+		 function play7(){
+		 audioObject = document.getElementById( "jj7" );
+		 audioObject.play();
+         }		
+		 function play8(){
+		 audioObject = document.getElementById( "jj8" );
+		 audioObject.play();
+         }	
+	  function keyFunction() {
+	if (event.keyCode==65) {
+		 play1();
+		return false;
+	} else if (event.keyCode==87) {if (event.keyCode==87) {
+		 play2();
+		return false;
+	}
+		 play2();
+		return false;
+	} else if (event.keyCode==68) {
+		 play3();
+		return false;
+	} else if (event.keyCode==70) {
+		 play4();
+		return false;
+	}else if (event.keyCode==86) {
+		 play5();
+		return false;
+	}else if (event.keyCode==71) {
+		 play6();
+		return false;
+	}else if (event.keyCode==72) {
+		 play7();
+		return false;
+	}else if (event.keyCode==85) {
+		 play8();
+	}
+}
+document.onkeydown=keyFunction;
+         window.addEventListener( "load", start, false );
+      </script>
+   </head>
+   <body> 
+   <audio id = "jj1" preload = "auto"><source src = "j1.mp3"type = "audio/mpeg"></audio>
+   <audio id = "jj2" preload = "auto"><source src = "j2.mp3"type = "audio/mpeg"></audio>
+   <audio id = "jj3" preload = "auto"><source src = "j3.mp3"type = "audio/mpeg"></audio>
+   <audio id = "jj4" preload = "auto"><source src = "j4.mp3"type = "audio/mpeg"></audio>
+   <audio id = "jj5" preload = "auto"><source src = "j5.mp3"type = "audio/mpeg"></audio>
+   <audio id = "jj6" preload = "auto"><source src = "j6.mp3"type = "audio/mpeg"></audio>
+   <audio id = "jj7" preload = "auto"><source src = "j7.mp3"type = "audio/mpeg"></audio>
+   <audio id = "jj8" preload = "auto"><source src = "j8.mp3"type = "audio/mpeg"></audio>
+	<input id='1' type='button' style='background-image:url(1.png);width:96px;height:200px;position: absolute;margin-top:210px;margin-left:22px;'> 
+	 <input id='2' type='button' style='background-image:url(2.png);width:100px;height:280px;position: absolute;margin-top:100px;margin-left:120px;'>
+	 <input id='3' type='button' style='background-image:url(3.png);width:112px;height:180px;position: absolute;margin-top:260px;margin-left:222px;'>
+	 <input id='4' type='button' style='background-image:url(4.png);width:91px;height:123px;position: absolute;margin-top:130px;margin-left:306px;'>
+	 <input id='5' type='button' style='background-image:url(5.png);width:138px;height:203px;position: absolute;margin-top:280px;margin-left:339px;'>
+	 <input id='6' type='button' style='background-image:url(6.png);width:91px;height:118px;position: absolute;margin-top:132px;margin-left:401px;'>
+	 <input id='7' type='button' style='background-image:url(7.png);width:116px;height:155px;position: absolute;margin-top:260px;margin-left:494px;'>
+	 <input id='8' type='button' style='background-image:url(8.png);width:136px;height:229px;position: absolute;margin-top:130px;margin-left:615px;'>
+	 <div style='position: absolute;margin-top:30px;margin-left:290px;'>海洋大學-物理中看音樂期末報告</div>
+   </body>
+</html>
